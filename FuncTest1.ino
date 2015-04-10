@@ -7,7 +7,7 @@ void setup() {
 void loop(){
   func(3);
   func(5);
-  func(devil);
+  func(6);
 }
 
 void func(int led){
