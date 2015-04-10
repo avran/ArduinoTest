@@ -10,10 +10,10 @@ void setup() {
 }
 
 void loop (){
-  if (digitalRead(10)==CHANGE){
+  if (digitalRead(10)!=CHANGE){
   leda(3); delay(750); leda(5); delay(750); leda(6); delay(750); leda(9); delay(750);
   }
-  if (digitalRead(11)==CHANGE){
+  if (digitalRead(11)!=CHANGE){
     for(x=0; x<10; x++){
         if (x==0){
           leds();
